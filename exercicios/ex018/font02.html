@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Chernobyl';
+            src: url('fontes/Chernobyl.otf') format('opentype'), url('love larry.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /*
+            tipos de format
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aap (Apple AdvancedTypography)
+            - svg
+            - obs: Dentro da url('Chernobyl.otf') que nada mais é que o nome do arquivo propriamente dito a acompanhado do format ('opentype'), pode ads mais de um arquivo.
+        */    
+
+        body {
+           font-family: Arial, Helvetica, sans-serif; 
+        }
+        
+        h1 {
+            font-family: 'chernobyl', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla dignissimos rerum consectetur? Dicta quas iste exercitationem consectetur sint magnam praesentium natus magni quaerat deserunt, inventore tenetur maiores, repudiandae, laudantium nostrum.</p>
+</body>
+</html>
