@@ -3,23 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
+        img {
+            border: 50px solid black;
+        
+        }
+
+        p {
+            
+            line-height: 1.5;
+           
+        }
+
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
-            background-repeat: no-repeat;
+            background-position: center center;
+            background-repeat: repeat-y;
+            background-size: cover;
+            background-attachment: fixed ;*/
+
+            /* short thand - background color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg')center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
-            border-radius: 1px solid darkblue;
+            border-radius: 50px solid black;
             border-radius: 15px;
         }
     </style>
@@ -28,9 +46,20 @@
     <main>
         <h1>Teste de Imagem de Fundo</h1>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eligendi consequuntur nisi ipsum doloremque alias itaque nemo id vero nobis, ut asperiores voluptatum! Sed unde nulla nesciunt illum assumenda odit?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, temporibus eum a odit, possimus vitae autem veniam tenetur quae repudiandae optio numquam maxime neque voluptatem suscipit corrupti recusandae omnis commodi.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis unde obcaecati nemo tenetur esse natus commodi deserunt nihil. Maxime, aliquid? Quibusdam consequuntur, dolores impedit recusandae quaerat quae minus illum obcaecati!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eligendi consequuntur nisi ipsum doloremque alias itaque nemo id vero nobis, ut asperiores voluptatum! Sed unde nulla nesciunt illum assumenda odit? <br><br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, temporibus eum a odit, possimus vitae autem veniam tenetur quae repudiandae optio numquam maxime neque voluptatem suscipit corrupti recusandae omnis commodi. <br><br>
+            
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis unde obcaecati nemo tenetur esse natus commodi deserunt nihil. Maxime, aliquid? Quibusdam consequuntur, dolores impedit recusandae quaerat quae minus illum obcaecati! <br><br>
+            
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora aspernatur eos minus quia praesentium! Perferendis vitae voluptas quo cupiditate! Vero eum error cumque laborum, ratione iure fuga asperiores hic voluptate? <br><br>
+            
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae delectus soluta deserunt facere possimus quae quo, ipsum sit veritatis excepturi reprehenderit quibusdam similique neque impedit quasi aliquid nisi nesciunt! Minima. <br><br>
+            
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, recusandae adipisci. Cupiditate, quos voluptates deleniti aliquid vero magnam in facilis laudantium facere eum maxime qui quaerat similique iure eius voluptatibus! <br><br>
+            
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum sint placeat maiores eius perspiciatis dicta, aut, nostrum aspernatur ex alias sed eum sequi accusantium nulla excepturi vero rem officiis provident? <br><br>
+            
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, cupiditate quas dolorem facilis eos neque ab illo, maxime quaerat ratione animi tempora autem fugit exercitationem consequatur. Totam neque illum amet.
         </p>
     </main>
 </body>
